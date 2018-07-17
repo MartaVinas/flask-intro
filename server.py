@@ -22,7 +22,7 @@ def start_here():
 
     return """<!doctype html><html>Hi! This is the home page.</html>
     		  <br>
-    		  <a href="http://localhost:5000/hello">Hello</a>
+    		  <a href="/hello">Hello</a>
     """
 
 
@@ -38,10 +38,11 @@ def say_hello():
       </head>
       <body>
         <h1>Hi There!</h1>
-        <form action="/greet">
+        <form action="/diss">
           What's your name? <input type="text" name="person">
           <input type="submit" value="Submit">
         </form>
+
       </body>
     </html>
     """
